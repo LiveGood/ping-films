@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 import { BackgroundVideo } from '../../components';
+import { Header, Footer } from '../../components';
 
 export default HomePage => {
   return (
@@ -12,13 +12,12 @@ export default HomePage => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
       <main className={styles.main}>
         <BackgroundVideo />
       </main>
 
-      <footer className={styles.footer}>
-      
-      </footer>
+      <Footer />
     </div>
   )
 }

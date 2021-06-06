@@ -1,0 +1,12 @@
+.header {
+  z-index: 100;
+}
+.headerText {
+  color: white;
+  width: 200px;
+  text-align: left;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 20px;
+  margin-left: 50px;
+}
