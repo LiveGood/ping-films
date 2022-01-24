@@ -1,0 +1,15 @@
+
+.videoCirclesContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circleContainer {
+  text-align: center;
+}
+
+.imageText {
+  margin-top: 25px;
+}

@@ -1,0 +1,11 @@
+
+
+.quoteContainer {
+    font-family: Open Sans;
+}
+
+.quoteAuthor {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}

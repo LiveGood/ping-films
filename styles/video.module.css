@@ -1,6 +1,5 @@
 .videoContainer {
   position: absolute;
-  width: 100%;
   top: 0%;
   left: 0%;
 }
@@ -9,4 +8,17 @@
   width: 100%;
   height: 100%;
   opacity: 0.8;
+}
+
+.centerTitle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  width: 700px;
 }
